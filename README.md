@@ -44,4 +44,12 @@
 3. **Launch**
    ```bash
    nvim
-   
+  Plugins install automatically on first run.
+4. **Start Writeing**
+  `<Leader>ff` → Find Note
+  `<Leader>fg` → Live Grep
+  `<Leader>fd` → Today's Daily Note
+
+⌨️ Default Keys (leader = Space)
+
+| | |
