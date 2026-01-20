@@ -1,0 +1,14 @@
+# user personal settings
+lua/user/
+
+# lazy.nvim lockfile (regenerated on open)
+lazy-lock.json
+
+# system junk
+.DS_Store
+Thumbs.db
+
+# zip / tar people sometimes drop
+*.zip
+*.tar
+*.tar.gz
