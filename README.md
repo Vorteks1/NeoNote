@@ -62,3 +62,14 @@
 | `<Leader>fw` | Toggle task checkbox |
 | `<Leader>gp` | Glow preview (floating window) |
 | `<Leader>xx` | Trim whitespace & save |
+
+---
+
+🎨 Switch Theme
+Colourschemes live in `lua/theams`
+Keep only one file (or raise its `priority`) to activate.
+
+---
+
+⚙️ Customise
+User tweaks go in lua/user/init.lua (git-ignored).
