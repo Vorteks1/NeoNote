@@ -33,6 +33,8 @@
 
 ## ⚡ Quick Start
 
+**Dependencies:** Neovim ≥ 0.9, Git, ripgrep, fd
+
 1. **Backup current config**
    ```bash
    mv ~/.config/nvim ~/.config/nvim.bak
