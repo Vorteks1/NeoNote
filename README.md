@@ -50,6 +50,8 @@
   `<Leader>fg` → Live Grep
   `<Leader>fd` → Today's Daily Note
 
+---
+
 ⌨️ Default Keys (leader = Space)
 
 | | |
