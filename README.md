@@ -79,3 +79,17 @@ Example:
 vim.opt.number = false
 vim.g.notes_root = "~/Dropbox/vault"
 ```
+
+---
+
+🧹 Uninstall
+```bash
+rm -rf ~/.config/nvim
+# restore old config if you kept it
+mv ~/.config/nvim.bak ~/.config/nvim
+```
+
+---
+
+📜 License
+MIT - do whatever you want.
