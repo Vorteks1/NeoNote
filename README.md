@@ -20,7 +20,7 @@
 
 ## ✨ Features
 
-| | |
+|-|-|
 | 🖥️ **Pure terminal** | glow preview, images via Kitty/WezTerm |
 | 🔗 **Wiki links** | `[[note]]` auto-complete + back-links |
 | ⚡ **Telescope** | fuzzy finder locked to your notes folder |
