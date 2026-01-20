@@ -38,3 +38,10 @@
 1. **Backup current config**
    ```bash
    mv ~/.config/nvim ~/.config/nvim.bak
+2. **Clone**
+   ```bash
+   git clone https://github.com/YOURNAME/neonote.git ~/.config/nvim
+3. **Launch**
+   ```bash
+   nvim
+   
