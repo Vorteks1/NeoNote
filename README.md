@@ -73,3 +73,9 @@ Keep only one file (or raise its `priority`) to activate.
 
 ⚙️ Customise
 User tweaks go in lua/user/init.lua (git-ignored).
+Example:
+```lua
+-- lua/user/init.lua
+vim.opt.number = false
+vim.g.notes_root = "~/Dropbox/vault"
+```
