@@ -1,0 +1,10 @@
+-- vanilla options
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.wrap = false
+vim.opt.mouse = 'a'
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.undofile = true
+vim.opt.swapfile = false
+vim.g.notes_root = vim.fn.expand('~/notes')
