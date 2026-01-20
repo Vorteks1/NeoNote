@@ -20,6 +20,7 @@
 
 ## ✨ Features
 
+| | |
 |-|-|
 | 🖥️ **Pure terminal** | glow preview, images via Kitty/WezTerm |
 | 🔗 **Wiki links** | `[[note]]` auto-complete + back-links |
@@ -52,3 +53,10 @@
 ⌨️ Default Keys (leader = Space)
 
 | | |
+|-|-|
+| `<Leader>ff` | Find Note |
+| `<Leader>fg` | Live Grep |
+| `<Leader>fd` | Open / create daily note |
+| `<Leader>fw` | Toggle task checkbox |
+| `<Leader>gp` | Glow preview (floating window) |
+| `<Leader>xx` | Trim whitespace & save |
