@@ -1,16 +1,23 @@
--- init.lua  –  NeoNote bootstrap
---  ___  _   _     _ _
--- |  _|| \ | |___| | |___
--- |  _||  \| / _ \ | / _ \
--- |_|  |_|\_\___/_|_\___/
-
+-- ~/.config/nvim/init.lua  (one-file, bootstraps lazy, loads lua/plugins/)
 vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
-
--- load core
-require 'core.options'
-require 'core.keymaps'
-require 'core.autocmds'
 
 -- bootstrap lazy.nvim
-require 'core.lazy'
+local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
+if not vim.uv.fs_stat(lazypath) then
+  vim.fn.system { 'git', 'clone', '--filter=blob:none', 'https://github.com/folke/lazy.nvim.git', '--branch=stable', lazypath }
+end
+vim.opt.rtp:prepend(lazypath)
+
+-- core opts / maps
+vim.opt.number = true
+vim.opt.swapfile = false
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.showbreak = '↪ '
+vim.keymap.set('n', '<leader>w', '<Cmd>w<CR>')
+
+-- load plugins + themes folders (modular)
+require('lazy').setup({
+  { import = 'plugins' },
+  { import = 'themes' },
+})
